@@ -1,5 +1,6 @@
 <?php
    include "db.php";
+   session_start();
    if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -13,7 +14,7 @@
             $_SESSION['user_name'] = $row['name'];
             $_SESSION['user_role'] = $row['role'];
             if($_SESSION['user_role'] == "admin"){
-                header("Location: admin/dashboard.php");
+                header("Location: dashboard.php");
             }
             else{
                 echo "dashboard for user";

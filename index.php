@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
         *{
             margin: 0;
@@ -105,22 +106,54 @@
     </nav>
 </header>
 <main class="main">
-    <?php for( $i = 0; $i<15; $i++){
+    <?php {
         ?>
    <div class="product">
-    <img src="airforce.jpg" alt="">
-    <h2>product title</h2>
-    <p>product description</p>
-    <p>product quantity</p>
-    <p class="productprice">product price</p>
+    <img src="airjordan5.avif" alt="">
+    <h2>Air Jordan 5 Retro "Grape"</h2>
+    <p>The AJ5 is a win no matter how you look at it. The "Grape" colorway broke the mold, veering away from heritage Jordan colors to nod the NBA team in the state MJ grew up in.</p>
+    <p>Stock: 35</p>
+    <p class="productprice">215€</p>
     <a href="#">Buy now</a>
    </div>
    <div class="product">
     <img src="airjordan.jpg" alt="">
-    <h2>product title</h2>
-    <p>product description</p>
-    <p>product quantity</p>
-    <p class="productprice">product price</p>
+    <h2>Air Jordan 1</h2>
+    <p>Inspired by the original that debuted in 1985, the Air Jordan 1 Low offers a clean, classic look that's familiar yet always fresh.</p>
+    <p>Stock: 12</p>
+    <p class="productprice">125€</p>
+    <a href="#">Buy now</a>
+   </div>
+   <div class="product">
+    <img src="lowair1.avif" alt="">
+    <h2>Air Jordan 1 Low</h2>
+    <p>Always in, always fresh. The Air Jordan 1 Low sets you up with a piece of Jordan history and heritage that's comfortable all day. </p>
+    <p>Stock: 7</p>
+    <p class="productprice">130€</p>
+    <a href="#">Buy now</a>
+   </div>
+   <div class="product">
+    <img src="jordannn.avif" alt="">
+    <h2>Jordan Flight Club '91</h2>
+    <p>The Jordan Flight Club '91 has a design that throws back to basketball's golden age and the sneakers that reigned supreme. </p>
+    <p>Stock: 23</p>
+    <p class="productprice">150€</p>
+    <a href="#">Buy now</a>
+   </div>
+   <div class="product">
+    <img src="JORDAN6.avif" alt="">
+    <h2>Jordan 6 Rings</h2>
+    <p>Celebrate the legendary career of "His Airness" with the Jordan 6 Rings.</p>
+    <p>Stock: 4</p>
+    <p class="productprice">130€</p>
+    <a href="#">Buy now</a>
+   </div>
+   <div class="product">
+    <img src="midair1.avif" alt="">
+    <h2>Air Jordan 1 Mid</h2>
+    <p>The Air Jordan 1 Mid brings full-court style and premium comfort to an iconic look.</p>
+    <p>Stock: 9</p>
+    <p class="productprice">130€</p>
     <a href="#">Buy now</a>
    </div>
    <?php } ?>

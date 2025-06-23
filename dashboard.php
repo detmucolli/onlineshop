@@ -9,7 +9,7 @@ if(isset($_SESSION['user_id'])){
     }
 }
 else{
-    header("Location: ../index.php");
+    header("Location: index.php");
 }
 ?>
 
@@ -25,7 +25,7 @@ else{
             padding: 0;
         }
         .dashboard_sidebar{
-            margin-left: 0;
+           
             position: fixed;
             top: 0;
             background-color: darkcyan;
@@ -37,7 +37,7 @@ else{
             text-align: center;
         }
         .dashboard_sidebar ul li a{
-              padding: 10px;
+            padding: 10px;
             display: block;
             text-decoration: none;
             color: white;
@@ -54,20 +54,13 @@ else{
 <body>
     <div class="dashboard_sidebar">
         <ul>
-            <li><a href="">Add Product</a></li>
-             <li><a href="">View Order</a></li>
-              <li><a href="">logout</a></li>
+            <li><a href="addproduct.php">Add Product</a></li>
+             <li><a href="displayproduct.php">View Order</a></li>
+              <li><a href="logout.php">logout</a></li>
         </ul>
     </div>
     <div class="dashboard_main">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, 
-            doloribus obcaecati nulla adipisci pariatur aliquam 
-            reiciendis quam exercitationem earum quibusdam ullam molestias corrupti,
-             quasi cum. Voluptatibus optio necessitatibus fuga aliquid.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Maxime, nobis. Accusamus dolore quia libero autem. 
-            Quas, culpa autem. Quasi fuga atque voluptatum
-             distinctio perspiciatis quae nihil possimus officiis magni ad.</p>
+        
     </div>
 </body>
 </html>
