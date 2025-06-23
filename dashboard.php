@@ -47,7 +47,7 @@ else{
         }
         .dashboard_main{
             padding: 30px;
-            margin-left 200px;
+            margin-left: 200px;
         }
     </style>
 </head>

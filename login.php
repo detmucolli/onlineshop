@@ -72,7 +72,7 @@
     <form action="login.php" method="post">
         <input  type="email" name="email" placeholder="Enter Your Email Here!" required>
         <input type="password" name="password" placeholder="Enter Your Password Here!" required>
-         <input class="button" type="submit" name="submit" value="login">
+         <input class="button"  type="submit" name="submit" value="login">
          <p>Dont Register Yet!<a href="register.php">Sign Up</a></p>
     </form>
     </div>

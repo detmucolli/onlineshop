@@ -57,7 +57,7 @@ else{
         .dashboard_main{
             position: relative;
             padding: 200px;
-            margin-left 200px;
+            margin-left: 200px;
         }
         table{
             width: 117%;
@@ -103,8 +103,8 @@ else{
                  <th>Image</th>
                   <th>Price</th>
                    <th>Stock</th>
-                    <th>Category Name</th>
                     <th>Action</th>
+                    <th>Category</th>
                     <th>Action</th>
             </tr>
         </thead>
